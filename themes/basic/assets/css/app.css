@@ -1943,50 +1943,50 @@ textarea.form-control {
     width: 100%;
 }
 
-.section {
+.section-cont {
     padding-top: 80px;
     padding-bottom: 80px;
     overflow: hidden;
 }
 
-.section.section-start .section-inner .section-header {
+.section-cont.section-start .section-inner .section-header {
     text-align: start;
 }
 
-.section.section-start .section-inner .section-title {
+.section-cont.section-start .section-inner .section-title {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
 }
 
-.section.section-start .section-inner .section-text {
+.section-cont.section-start .section-inner .section-text {
     max-width: 100%;
 }
 
-.section.section-bg {
+.section-cont.section-bg {
     background-position: top center;
     padding-top: 550px;
     background-repeat: no-repeat;
 }
 
 @media (min-width: 1920px) {
-    .section.section-bg {
+    .section-cont.section-bg {
         background-size: 100% 100%;
     }
 }
 
-.section.section-margin {
+.section-cont.section-margin {
     margin-top: -250px;
 }
 
-.section .section-header {
+.section-cont.section-header {
     position: relative;
     margin-bottom: 45px;
     text-align: center;
     z-index: 1;
 }
 
-.section .section-title {
+.section-cont.section-title {
     position: relative;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -2010,12 +2010,12 @@ textarea.form-control {
 }
 
 @media (min-width: 1200px) {
-    .section .section-title {
+    .section-cont.section-title {
         font-size: 35px;
     }
 }
 
-.section .section-title::after {
+.section-cont.section-title::after {
     content: "";
     display: block;
     width: 50px;
@@ -2027,14 +2027,14 @@ textarea.form-control {
     background-image: linear-gradient(to right, var(--secondary_color) 0%, var(--primary_color) 90%);
 }
 
-.section .section-text {
+.section-cont.section-text {
     font-weight: 400;
     max-width: 800px;
     margin-inline: auto;
 }
 
 @media (max-width: 991.98px) {
-    .section {
+    .section-cont {
         padding-top: 50px;
         padding-bottom: 50px;
     }
